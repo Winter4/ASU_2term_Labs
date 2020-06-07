@@ -1,0 +1,18 @@
+﻿Построение начато 07.06.2020 16:09:06.
+     1>Проект "C:\Users\Admin\Documents\GitHub\ASU_2term_Labs\ASU_7\ASU_7\ASU_7.vcxproj" в узле 2 (целевые объекты build).
+     1>InitializeBuildStatus:
+         Создание "Debug\ASU_7.unsuccessfulbuild", так как было задано "AlwaysCreate".
+       ClCompile:
+         Для всех выходных данных обновления не требуется.
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\ASU_7.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ASU_7.cpp
+         ASU_7.cpp
+     1>c:\users\admin\documents\github\asu_2term_labs\asu_7\asu_7\asu_7.cpp(92): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\conio.h(128): см. объявление "getch"
+     1>c:\users\admin\documents\github\asu_2term_labs\asu_7\asu_7\asu_7.cpp(99): warning C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _getch. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\conio.h(128): см. объявление "getch"
+     1>c:\users\admin\documents\github\asu_2term_labs\asu_7\asu_7\asu_7.cpp(103): error C2065: Rect: необъявленный идентификатор
+     1>Построение проекта "C:\Users\Admin\Documents\GitHub\ASU_2term_Labs\ASU_7\ASU_7\ASU_7.vcxproj" завершено (целевые объекты build) с ошибкой.
+
+СБОЙ построения.
+
+Затраченное время: 00:00:00.80
