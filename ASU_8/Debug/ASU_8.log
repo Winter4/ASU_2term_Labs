@@ -1,0 +1,19 @@
+﻿  ASU_8.cpp
+C:\Users\Admin\Documents\GitHub\ASU_2term_Labs\ASU_8\ASU_8.cpp(28,15): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+C:\Users\Admin\Documents\GitHub\ASU_2term_Labs\ASU_8\ASU_8.cpp(29,15): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+C:\Users\Admin\Documents\GitHub\ASU_2term_Labs\ASU_8\ASU_8.cpp(79,52): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+C:\Users\Admin\Documents\GitHub\ASU_2term_Labs\ASU_8\ASU_8.cpp(79,32): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+C:\Users\Admin\Documents\GitHub\ASU_2term_Labs\ASU_8\ASU_8.cpp(82,58): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+C:\Users\Admin\Documents\GitHub\ASU_2term_Labs\ASU_8\ASU_8.cpp(82,38): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+C:\Users\Admin\Documents\GitHub\ASU_2term_Labs\ASU_8\ASU_8.cpp(86,58): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+C:\Users\Admin\Documents\GitHub\ASU_2term_Labs\ASU_8\ASU_8.cpp(86,38): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+C:\Users\Admin\Documents\GitHub\ASU_2term_Labs\ASU_8\ASU_8.cpp(96,117): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+C:\Users\Admin\Documents\GitHub\ASU_2term_Labs\ASU_8\ASU_8.cpp(96,93): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+C:\Users\Admin\Documents\GitHub\ASU_2term_Labs\ASU_8\ASU_8.cpp(96,69): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+C:\Users\Admin\Documents\GitHub\ASU_2term_Labs\ASU_8\ASU_8.cpp(96,45): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+C:\Users\Admin\Documents\GitHub\ASU_2term_Labs\ASU_8\ASU_8.cpp(101,117): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+C:\Users\Admin\Documents\GitHub\ASU_2term_Labs\ASU_8\ASU_8.cpp(101,93): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+C:\Users\Admin\Documents\GitHub\ASU_2term_Labs\ASU_8\ASU_8.cpp(101,69): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+C:\Users\Admin\Documents\GitHub\ASU_2term_Labs\ASU_8\ASU_8.cpp(101,45): warning C4244: аргумент: преобразование "float" в "int", возможна потеря данных
+C:\Users\Admin\Documents\GitHub\ASU_2term_Labs\ASU_8\ASU_8.cpp(107,1): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+  ASU_8.vcxproj -> C:\Users\Admin\Documents\GitHub\ASU_2term_Labs\ASU_8\Debug\ASU_8.exe
