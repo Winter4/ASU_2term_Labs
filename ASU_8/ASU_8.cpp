@@ -5,7 +5,7 @@
 #include "locale.h"
 #include <math.h>
 
-void scale_n_axis(int dotX[15], int dotY[15], int recX[4], int recY[4], int dn, int rn, float* mx, float* my) // находим масштаб и рисуем оси
+void scale(int dotX[15], int dotY[15], int recX[4], int recY[4], int dn, int rn, float* mx, float* my) // находим масштаб
 {
     int x_max = 0, y_max = 0;
 
@@ -28,6 +28,10 @@ void scale_n_axis(int dotX[15], int dotY[15], int recX[4], int recY[4], int dn, 
     *my = 480 / (2 * y_max); // и поделить рабочее пространство на удовенное значение масштаба
     *mx = 640 / (2 * x_max); // почему именно так - хз, но это так работает)
 
+}
+
+void axis() // переводим название функции
+{
     HWND hwnd = GetConsoleWindow(); // тут начинаем рисовать оси
     HDC hdc = GetDC(GetConsoleWindow());
 
@@ -113,7 +117,8 @@ void main()
 
     float mx, my;
 
-    scale_n_axis(dotX, dotY, recX, recY, dn, rn, &mx, &my); // бахаем-с
+    scale(dotX, dotY, recX, recY, dn, rn, &mx, &my); // бахаем-с
+    axis();
     draw(recX, recY, dotX, dotY, dn, mx, my);
 
     _getch();
