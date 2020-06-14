@@ -20,7 +20,7 @@ void task()
 	// x, y - координаты; dx - приращение (изменение) икса;
 	// r, g, b - цвет RGB; drgb - изменение цвета.
 
-	while (true)
+	while (true) // собственно цикл, в котором всё происходит
 	{
 		HBRUSH cBrush = CreateSolidBrush(RGB(255, 255, 255)); // создали кисть
 		SelectObject(hDC, cBrush); // выбрали кисть
